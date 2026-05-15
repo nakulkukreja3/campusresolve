@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
   "dev": "vite dev",
-  "build": "vite build && cp -r dist/client/* dist/",
+  "build": "vite build && rm -rf dist_static && cp -r dist/client dist_static",
   "build:v": "vite build --mode development",
   "preview": "vite preview",
   "lint": "eslint .",
