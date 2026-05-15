@@ -1,0 +1,4 @@
+project_id = "psnaqrgmegcabyxodier"
+
+[functions.classify-complaint]
+verify_jwt = false
