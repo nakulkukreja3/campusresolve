@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+
 import { Navbar } from "@/components/landing/Navbar";
 import { Hero } from "@/components/landing/Hero";
 import { Features } from "@/components/landing/Features";
@@ -17,6 +18,7 @@ function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Navbar />
+
       <main>
         <Hero />
         <Features />
@@ -26,6 +28,7 @@ function Index() {
         <Testimonials />
         <CTA />
       </main>
+
       <Footer />
     </div>
   );
